@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud">
+
+
+    <EditText
+        android:id="@+id/edtPass3"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableLeft="@drawable/icon_key"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPass"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Reset password"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="354dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/rounded_edittext"
+        android:drawableLeft="@drawable/icon_shield"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="UPGRADE PASSWORD"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D3B4FB"
+        app:cornerRadius="@android:dimen/app_icon_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtPass3"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/view_eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ShowHidePass"
+        app:layout_constraintBottom_toBottomOf="@+id/edtPass"
+        app:layout_constraintEnd_toEndOf="@+id/edtPass"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="@+id/edtPass"
+        app:layout_constraintTop_toTopOf="@+id/edtPass"
+        app:layout_constraintVertical_bias="0.482"
+        app:srcCompat="@drawable/show_password"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/edtPass3"
+        app:layout_constraintEnd_toEndOf="@+id/edtPass3"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="@+id/edtPass3"
+        app:layout_constraintTop_toTopOf="@+id/edtPass3"
+        app:layout_constraintVertical_bias="0.517"
+        app:srcCompat="@drawable/show_password" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

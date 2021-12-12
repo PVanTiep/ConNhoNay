@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:text="Thời gian tập trung"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.205"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="170dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginBottom="16dp"
+        android:text="Tên công việc"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="170dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="16dp"
+
+        android:text="Thời gian tập trung"
+        android:textColor="#000000"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edittext_1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt2"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/rounded_edittext_1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/edt3"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="150dp"
+        android:layout_height="34dp"
+
+        android:layout_marginBottom="296dp"
+        android:background="@drawable/rounded_edittext_1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="170dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="296dp"
+        android:text="Thời gian nghỉ"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/rounded_edittext_1"
+        android:gravity="center"
+        android:text="Bắt đầu"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:backgroundTint="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

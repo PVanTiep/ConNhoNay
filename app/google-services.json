@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605780914334",
+    "project_id": "auth-4a763",
+    "storage_bucket": "auth-4a763.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605780914334:android:f12263bd4da5fe35c08b8f",
+        "android_client_info": {
+          "package_name": "org.meicode.connhonay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605780914334-id59plp00sbajhuev2dkqfjo7ordtu5d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL2WUPW2wQasCuji6ibSFL3_OCkVeitS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605780914334-id59plp00sbajhuev2dkqfjo7ordtu5d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ConNhoNay/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.23489583333333333" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/drawable-anydpi/rounded_edittext_1.xml" value="0.3458333333333333" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/drawable-anydpi/rounded_edittext_focus.xml" value="0.403125" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.34791666666666665" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/drawable/ic_launcher_background.xml" value="0.34791666666666665" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/drawable/rounded_edittext.xml" value="0.403125" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/activity_check_mail.xml" value="0.3072916666666667" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/activity_history_focus.xml" value="0.37135416666666665" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/activity_input_time.xml" value="0.33" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/activity_notification.xml" value="0.38697916666666665" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/activity_sign_up.xml" value="0.38697916666666665" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/activity_time_cout_down.xml" value="0.33" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/check_mail.xml" value="0.21875" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/forgot_pass.xml" value="0.33" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/reset_pass.xml" value="0.25" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/reset_succ.xml" value="0.21875" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/reset_success.xml" value="0.33" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/rounded_edittext.xml" value="0.33177083333333335" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/sign_in.xml" value="0.25" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/sign_up.xml" value="0.2" />
+        <entry key="..\:/ConNhoNay/app/src/main/res/layout/user.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
